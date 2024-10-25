@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Profile</h1>
+            <div class="profile">
+                <p>Name: Hanif Indra Kusuma</p>
+                <p>Gender: Male</p>
+                <p>Email: hanif.indra.kusuma@gmail.com</p>
+            </div>
+        </header>
+
+        <section class="time-display">
+            <h2>Current Time</h2>
+            <p id="time"></p>
+        </section>
+
+        <section class="todo-list">
+            <h2>To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <select id="prioritySelect">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button id="addTaskBtn">Add Task</button>
+            <ul id="taskList"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
